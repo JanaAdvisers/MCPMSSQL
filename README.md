@@ -1,4 +1,16 @@
+# This repo is a fork of the existing MCP server so that windows auth can be used.
+
+See the examples!!!
+
+Below is the original README.md
+
+
+
+
 # SQL-AI-samples
+
+
+
 
 ## About this repo
 
