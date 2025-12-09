@@ -4,12 +4,12 @@
       "command": "node",
       "args": ["C:/path/to/your/Node/dist/index.js"],
       "env": {
-        "AUTH_TYPE": "windows",
-        "SERVER_NAME": "localhost\\SQLEXPRESS",
+        "AUTH_TYPE": "azure",
+        "SERVER_NAME": "your-server.database.windows.net",
         "DATABASE_NAME": "your-database-name",
         "READONLY": "false",
         "CONNECTION_TIMEOUT": "30",
-        "TRUST_SERVER_CERTIFICATE": "true"
+        "TRUST_SERVER_CERTIFICATE": "false"
       }
     }
   }

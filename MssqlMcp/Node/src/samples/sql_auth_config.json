@@ -4,12 +4,14 @@
       "command": "node",
       "args": ["C:/path/to/your/Node/dist/index.js"],
       "env": {
-        "AUTH_TYPE": "windows",
-        "SERVER_NAME": "localhost\\SQLEXPRESS",
+        "AUTH_TYPE": "sql",
+        "SERVER_NAME": "localhost",
         "DATABASE_NAME": "your-database-name",
+        "SQL_USERNAME": "your-sql-username",
+        "SQL_PASSWORD": "your-sql-password",
         "READONLY": "false",
         "CONNECTION_TIMEOUT": "30",
-        "TRUST_SERVER_CERTIFICATE": "true"
+        "TRUST_SERVER_CERTIFICATE": "false"
       }
     }
   }
