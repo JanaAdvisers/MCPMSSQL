@@ -210,7 +210,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             isError: true,
           };
         }
-        result = await describeTableTool.run(args as { tableName: string });
+        result = await describeTableTool.run(
+          args as { tableName: string; schemaName: string },
+        );
         break;
       default:
         return {
